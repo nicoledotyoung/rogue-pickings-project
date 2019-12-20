@@ -1,0 +1,125 @@
+/* GRID */
+.full-width {
+    width: 1200px;
+}
+
+.third-width {
+    width: 360px;
+    float: left;
+    padding: auto 10px;
+}
+
+/* HEADER */
+
+header h1{
+    float: left;
+    font-family: "montserrat";
+    font-size: 30px;
+    font-weight: bold;
+    padding: 35px 0px;
+}
+header span{
+    color: #77a466;
+}
+nav{
+    float: right;
+    padding: 50px 10px;
+}
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: "montserrat";
+    font-weight: bold;
+    font-size: 12px;
+    color: #77a466;
+
+}
+
+/* TOP SECTION */
+
+main{
+    clear: both;
+    padding-left: 20px;
+}
+main #heroimg {
+    border-top: solid 3px#77a466;
+    border-bottom:solid 3px#77a466;
+    padding: 0px;
+}
+
+main h2{
+    font-family: "montserrat";
+    font-weight: bold;
+    font-size: 18px;
+    text-align: left;
+    color:#77a466;
+    padding: 10px 0px;
+}
+main p{
+    font-family: "montserrat";
+    font-size: 16px;
+    text-align: left;
+    line-height: 25px;
+    padding-bottom: 10px;
+}
+
+/* BOTTOM SECTION */
+main h3{
+    font-family: "montserrat";
+    font-weight: bold;
+    text-transform: small-caps;
+    font-size: 12px;
+    text-align: left;
+    padding: 10px 0px;
+}
+main #top {
+    border-bottom: solid 1px #dedbdc;
+}
+main #featured-review {
+    border-right:  solid 1px #dedbdc;
+    border-left:  solid 1px #dedbdc;
+    padding: 10px 40px 10px 30px;
+}
+
+#specials ul li{
+    list-style-type: none;
+    padding-bottom: 18px;
+}
+#specials ul li a{
+    font-family: "montserrat";
+    color: #77a466;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+#contact{
+    padding-left: 30px;
+}
+
+/* FOOTER */
+
+footer{
+    border-top:solid 1px #dedbdc;
+    clear: both;
+    padding: 100px auto;
+}
+
+footer h2{
+    font-family: "montserrat";
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;    
+}
+
+footer span{
+    color: #77a466;
+    font-family: "dancing script";
+    text-transform: lowercase;
+    font-size: 20px;
+    
+}
